@@ -52,9 +52,7 @@ while True:
             window["DownloadStatus"].Update("Please select a download folder!", text_color="red")
             print("No download folder selected")
             break
-        else:
-            window["downloadfolder"].Update(f"Download Folder: {download_folder}")
-            
+        window["downloadfolder"].Update(f"Download Folder: {download_folder}")
         if not str(values["input"]):
             window["DownloadStatus"].Update("Please select everything CORRECTLY!", text_color="red")
             print("No download type selected")
