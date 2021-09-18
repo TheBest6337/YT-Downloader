@@ -4,7 +4,6 @@ from PySimpleGUI.PySimpleGUI import BUTTON_TYPE_BROWSE_FILES, BUTTON_TYPE_BROWSE
 from pytube import YouTube
 import time
 import requests
-import os
 
 layout = [
     [os.Text("YouTube Downloader", key="video_title")],
